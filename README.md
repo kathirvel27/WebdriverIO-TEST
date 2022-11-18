@@ -11,6 +11,13 @@
 
 Ref : https://nodesource.com/blog/installing-nodejs-tutorial-mac-os-x/
 ```
+## To do Before RUN
+
+```
+change the mailid in->
+1.features->step-definitions->accountCreate.feature
+2.features->step-definitions->signInCheckout.feature
+```
 
 ## Initiate a WebdriverIO Setup
 

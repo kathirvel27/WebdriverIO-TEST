@@ -9,6 +9,6 @@ Feature: Create account in E-commerce site
 
     Examples:
      |FirstName|LastName|Email               |Password|PasswordConfirmation|
-     |dummy    |id      |dummyid301@gmail.com|Pass@000|Pass@000            |
+     |dummy    |id      |dummyid501@gmail.com|Pass@000|Pass@000            |
 
    

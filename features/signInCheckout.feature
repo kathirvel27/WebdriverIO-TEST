@@ -7,7 +7,7 @@ Feature:Sign In and Purchase Product
 
      Examples:
      |email               |password|
-     |dummyid301@gmail.com|Pass@000|
+     |dummyid501@gmail.com|Pass@000|
 
 
   Scenario: TC-003 Select product and Add to Cart 
