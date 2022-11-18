@@ -80,8 +80,8 @@ class checkOutPage extends Page {
     //Verify the product and place order
     async verifyProduct() {
 
-        let l = await $('//img[@title="Typhon Performance Fleece-lined Jacket"]');
-        if(l.isDisplayed()){console.log("present already")}
+        let l = await $("//div[@class='title']");
+        if(l.getAttribute('aria-expanded')== 'true'){console.log("present already")}
         else{await $("//div[@class='title']").click();}
 
         await browser.pause(3000);
