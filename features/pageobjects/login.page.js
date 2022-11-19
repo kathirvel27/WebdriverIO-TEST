@@ -84,8 +84,6 @@ class LoginPage extends Page {
         await browser.pause(3000);
         await this.myAccount.click();
         const greet = await this.welcomeName.getText();
-        // console.log("msg:--------- " + greet);
-        // //  await expect(greet).contains("Avi Shere");
         await expectChai(greet).to.include(('dummy id'));
     }
     
